@@ -4,6 +4,7 @@ def function(matrix1,matrix2):
     try:
         return matrix1 * matrix2
     except ValueError:
+        print("matrices are not aligned")
         return None
 
 my_matrix =np.identity(4)
