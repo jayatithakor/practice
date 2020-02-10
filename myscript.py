@@ -1,5 +1,5 @@
 import numpy as np
-
+import pandas as pd
 def function(matrix1,matrix2):
     try:
         return matrix1 * matrix2
@@ -7,6 +7,9 @@ def function(matrix1,matrix2):
         print("matrices are not aligned")
         return None
 
-my_matrix =np.identity(4)
-second_matrix=np.random.random(size=(4,4))
+
 print(function(my_matrix,second_matrix))
+my_matrix =np.identity(5)
+second_matrix=np.random.random(size=(4,4))
+print(my_matrix*second_matrix)
+
