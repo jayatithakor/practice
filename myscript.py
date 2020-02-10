@@ -1,4 +1,8 @@
 import numpy as np
+
+def function(matrix1,matrix2):
+    return matrix1 * matrix2
+
 my_matrix =np.identity(4)
-print(my_matrix)
-print("this was matrix 4")
+second_matrix=np.random.random(size=(4,4))
+print(function(my_matrix,second_matrix)
